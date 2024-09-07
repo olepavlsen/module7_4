@@ -7,11 +7,11 @@ team2_time = round(2153.31451, 1)
 # tasks_total = 82
 # time_avg = 45.2
 if score_1 > score_2 or score_1 == score_2 and team1_time > team2_time:
-    challenge_result = f'‘Победа команды Мастера кода!’'
+    challenge_result = f'Победа команды Мастера кода!'
 elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
-    challenge_result = f'‘Победа команды Волшебники Данных!’'
+    challenge_result = f'Победа команды Волшебники Данных!'
 else:
-    challenge_result = f'‘Ничья!’'
+    challenge_result = f'Ничья!'
 # challenge_result = 'Победа команды Волшебники данных!'
 
 tasks_total = score_1 + score_2
